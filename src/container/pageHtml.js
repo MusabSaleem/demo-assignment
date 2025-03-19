@@ -7,8 +7,8 @@ import JobList from "../component/jobList/job-list";
 
 function JobWeb() {
   return (
+   <Box sx={{ fontFamily: 'NeueHaasDisplay !important' }}>      
     <Box>
-      <Box>
         <Header/>
       </Box>
       <Box>

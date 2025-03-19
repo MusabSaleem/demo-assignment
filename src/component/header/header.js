@@ -22,6 +22,11 @@ const Header = () => {
         
         {/* Left Section - Logo and Navigation */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+          <img 
+            src="https://i.ibb.co/qMjyq4xK/Group-1907.png" 
+            alt="Logo" 
+            style={{ width: 40, height: 40 }}
+          />
           <Typography variant="h6" sx={{ fontWeight: "bold", color: "blue" }}>
             Find Jobs
           </Typography>

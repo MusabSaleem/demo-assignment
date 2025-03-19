@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Card, CardContent, Typography, Avatar, Divider, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Card, Typography, Avatar, Divider, useMediaQuery, useTheme } from "@mui/material";
 
 const ProfileCard = () => {
   const theme = useTheme();
@@ -20,7 +20,7 @@ const ProfileCard = () => {
           {/* Background Image */}
           <Box
             sx={{
-              backgroundImage: `url(https://via.placeholder.com/400x150)`,
+              backgroundImage: `url(https://i.ibb.co/jkvn1x6s/Rectangle-18369.png)`,
               width: "100%",
               height: 100,
               backgroundSize: "cover",
@@ -29,7 +29,7 @@ const ProfileCard = () => {
           />
           {/* Avatar */}
           <Avatar
-            src="https://via.placeholder.com/100"
+            src="https://i.ibb.co/Q7yd2HpK/Oval.png"
             alt="Albert Flores"
             sx={{
               width: 100,
